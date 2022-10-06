@@ -5,6 +5,38 @@
 --primary-white-color: #FFFFFF;
 }
 
+body {
+    background-color: var(--primary-white-color);
+    color: var(--title-text-color);
+}
+
+.logo {
+    color: blue;
+    }
+    
+    .site-nav .link {
+    color: var(--primary-text-color);
+    }
+    
+    .site-nav .link:hover, 
+    .site-nav .link:focus {
+        color: var(--accnent-color);
+    }
+    
+    .site-nav .link.current {
+        color: var(--accnent-color);
+    }
+    
+    .mail-tel .mail {
+    color: var(--accnent-color);
+    }
+    
+    .mail-tel .tel {
+        color: var(--title-text-color);
+    }
+    
+
+    
 
 #212121 основний текст
 #757575 другорядний

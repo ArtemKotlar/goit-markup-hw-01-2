@@ -1,0 +1,41 @@
+body {
+    background-color: var(--primary-white-color);
+    color: var(--title-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.logo {
+color: blue;
+}
+
+.site-nav .link {
+color: var(--primary-text-color);
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accnent-color);
+}
+
+.mail-tel {
+
+}
+
+.hero-title {
+color: var(--primary-text-color);
+}
+
+.section-title {
+    color: var(--primary-text-color);
+}
+
+.feature-list .title {
+    color: var(--primary-text-color);
+}
+
+.team-list .title {
+    color: var(--primary-text-color);
+}

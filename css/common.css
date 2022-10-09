@@ -67,13 +67,21 @@ body {
     text-decoration: none
 }
     
+.footer {
+    background: #2F303A;
+}
 
-    
+.address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+}
 
-#212121 основний текст
-#757575 другорядний
-#FFFFFF білий
-#2196F3 синій
-#757575 номер телефона
-rgba(255, 255, 255, 0.6); футер емейл і телефон 
-#F5F4FA; цвет фона 
+.address-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--primary-white-color);
+}
+

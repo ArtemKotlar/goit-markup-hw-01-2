@@ -14,6 +14,10 @@
     text-transform: uppercase;
 }
 
+.hero {
+    background: #2F303A;
+}
+
 .section-title {
     color: var(--primary-text-color);
     font-weight: 700;
@@ -51,11 +55,28 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button {
+    color: var(--primary-text-color);
+    background-color: #F5F4FA;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    color: var(--primary-white-color);
+    background-color:var(--accnent-color);
 }
 
 .team {
     background: #F5F4FA
 }
+

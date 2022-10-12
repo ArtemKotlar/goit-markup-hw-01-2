@@ -1,12 +1,9 @@
-
-
 .list {
     list-style: none;
 }
 
-
 .hero-title {
-    color: var(--accnent-color);
+    color: #FFFFFF;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -19,7 +16,6 @@
 .hero {
     background: #2F303A;
 }
-
 
 .section-title {
     color: var(--primary-text-color);
@@ -38,15 +34,20 @@
 }
 
 .feature-list .text {
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
 
 .team-list .title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19px;
     color: var(--primary-text-color);
 }
 
 .team-list .text-two {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
 

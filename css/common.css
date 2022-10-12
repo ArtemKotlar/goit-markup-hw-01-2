@@ -30,6 +30,15 @@ body {
     text-decoration: none;    
 }
 
+.logo-footer {
+    color: #FFFFFF; 
+    font-family: "Raleway", cursive;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none; 
+}
+
 .site-nav .link {
     color: var(--primary-text-color);
     font-weight: 500;
@@ -75,6 +84,7 @@ body {
     font-size: 14px;
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 
 .address-text {
@@ -82,4 +92,10 @@ body {
     font-size: 14px;
     line-height: 1.71;
     color: var(--primary-white-color);
+    text-decoration: none;
+}
+
+.address:hover,
+.address:focus {
+    color: var(--accnent-color);
 }

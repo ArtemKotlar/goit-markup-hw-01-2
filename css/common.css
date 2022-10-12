@@ -80,6 +80,7 @@ body {
 }
 
 .address {
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -88,6 +89,7 @@ body {
 }
 
 .address-text {
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -96,6 +98,4 @@ body {
 }
 
 .address:hover,
-.address:focus {
-    color: var(--accnent-color);
-}
+.address:focus 

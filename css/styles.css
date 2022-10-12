@@ -66,6 +66,7 @@
 }
 
 .button {
+    font-family: 'Roboto', sans-serif;
     color: var(--primary-text-color);
     background-color: #F5F4FA;
     font-weight: 700;

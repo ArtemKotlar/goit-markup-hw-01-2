@@ -58,23 +58,20 @@ body {
 }
     
 .mail-tel .mail {
-    color: var(--accnent-color);
+    color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
-    
-.mail-tel .tel {
-    color: var(--title-text-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    text-decoration: none
+  
+.mail:hover,
+.mail:focus {
+    color: var(--accnent-color);
 }
-    
+
+
 .footer {
     background: #2F303A;
 }
@@ -98,4 +95,11 @@ body {
 }
 
 .address:hover,
-.address:focus 
+.address:focus {
+color: var(--accnent-color);
+}
+
+.address-text:hover,
+.address-text:focus {
+color: var(--accnent-color);
+}
